@@ -7,6 +7,10 @@
 
 #define SMOOTH 0.00001
 
+typedef struct vector3d {
+	double x, y, z;
+} vector3d_t;
+
 vector3d_t* vector3d_new(double x, double y, double z) {
 	vector3d_t* vector = (vector3d_t*)malloc(sizeof(vector3d_t));
 

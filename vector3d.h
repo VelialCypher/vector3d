@@ -2,9 +2,7 @@
 #define VECTOR3D_H
 #pragma once
 
-typedef struct vector3d {
-	double x, y, z;
-} vector3d_t;
+typedef struct vector3d vector3d_t;
 
 vector3d_t* vector3d_new(double x, double y, double z);
 vector3d_t* vector3d_normalize(vector3d_t* vector);
